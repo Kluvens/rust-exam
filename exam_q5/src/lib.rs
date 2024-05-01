@@ -1,6 +1,11 @@
 use std::{sync::mpsc::channel, thread};
 
-pub fn parallel_reduce(items: Vec<i32>, identity: i32, reducer: fn(i32, i32) -> i32) -> i32 {
+pub fn parallel_reduce<T, I, F>(items: I, identity: T, reducer: F) -> T 
+where
+    I: IntoIterator<Item = T>,
+    T: Clone + Send,
+    F: Fn(T, T) -> T + Send + Sync,
+{
     let (a_send, a_recv) = channel();
     let (b_send, b_recv) = channel();
     let (res_send, res_recv) = channel();

@@ -1,3 +1,9 @@
 1.
+Each value should have only one owner. Only one owner can own the value and do some actions on it.
+And in Rust, a variable can have many immutale borrows, but have only one exclusive borrow.
+These ensure that a variable may be read multiple times but only be written once, which enhanced safety.
 
 2.
+Rust unsafe may bypass some built in checkers.
+Thus, if there are some mistakes, data race is possible.
+An example would be increments with multiple threads in an unsafe environment.

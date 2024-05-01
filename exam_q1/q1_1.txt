@@ -1,3 +1,9 @@
 1.
+The standard library Rust enum that could be used instead of returning a tuple is `Option<T>`.
+This function takes an index and return true if an argument exists and false if it does not exist.
+So Option is a good fit for this, if argument exists, we have Some(). Otherwise, we can use None to represent the argument is missing.
 
 2.
+Using Option<String> makes it easier to deal with missing values. This avoids checking bool values and retrieve string values directly and manually, which can be error prone.
+Furthermore, 'Option' enforces programmars to handle the absent values, which reduces the danger of missing values and null pointers.
+This is also why Rust is type safe.

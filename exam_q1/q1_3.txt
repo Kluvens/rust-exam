@@ -1,3 +1,13 @@
 1.
+The code block in the middle takes the ownership of variable `x`.
+In Rust, once the variable's ownership is taken, and when it goes out of scope, Rust automatically call `drop()`
+and the variable is then destroyed.
+Therefore, when trying to print variable x, the variable is not valid.
 
 2.
+In my opinion, this is a disadvantage.
+Even though many languages like C, make this compilation valid, and it offers more flexibility.
+However, it is not safe enough.
+Rust introduced the concept of ownership and borrowing to ensure the type is always being monitored.
+Rust ensured memory safety and makes program more stable and reliable.
+Potential errors can be checked compile time as well.

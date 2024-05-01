@@ -1,3 +1,9 @@
 1.
+The generics can only determine one type, and the type may not be known until the function is called.
+Therefore, generic type D should be either an i32 or a &str but cannot be both.
+However, item can be either i32 or &str and we may not know this until we actually run it.
+So, the operation violates Rust rules and the type checker cannot infer the type.
 
 2.
+We can use an enum to wrap around the i32 and &str values.
+Therefore, when receiving the value, the type is always the enum and we can extract the value inside the enum to further manipulate the data.

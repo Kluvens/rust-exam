@@ -1,3 +1,7 @@
 1.
+Rc<T> maintains a counter, if implements Send and multiple threads can access it and modify the counter.
+It could cause race conditions and inaccurate results.
 
 2.
+Without implementing Sync, multiple threads can access and update the value then cause potential risk conditions and the results may be incorrect.
+Arc<T> makes the value shared across threads. And threads should be regulated to update the value inside Arc.

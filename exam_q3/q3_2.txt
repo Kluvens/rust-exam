@@ -1,3 +1,14 @@
 1.
+The first approach can be easier and more intuitive for junior developers.
+However, the user should remember the use case of this method and does not take advantage of operator overloading
+and does not perfectly follow the design of Rust.
+
+In terms of the second approach, this is the way to implement operator overloading in Rust, so the user can use case like
+Point + Point
+then get another Point.
+This is also ore intuitive for more experienced developers and easy to understand.
+However, this can be slightly more complicated.
 
 2.
+Since the second approach implements `Add` trait, it can be used in operations that require structs to implement Add trait.
+An example would be sum() over a Vector of elements, if the element implements `Add` trait, then it is valid in this case; otherwise, sum() cannot be performed.

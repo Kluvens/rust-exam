@@ -1,3 +1,8 @@
 1.
+unsafe block explicitly tell the developers to manually manipulate memory carefully. The probability of making mistakes may be lower than C and C++.
+unsafe is more flexible but in rust program, most codes are written in safe Rust. That is the codes with memory safety issues can be less than C and C++.
 
 2.
+unsafe is complicated and can be error prone for developers.
+Rust is famous for its strong safety but unsafe breaks it and developers have to check it manually.
+Developers need to pay more attention on the code to ensure the it is bug-free and potential bugs may not be spotted.

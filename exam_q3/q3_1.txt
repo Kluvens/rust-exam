@@ -1,5 +1,13 @@
 1.
+The two types are `Option<T>` and `Result<T, U>`.
 
 2.
+When `?` is successful, it then unwraps the value
+and extract the value within it.
+For example, when `?` is used over an Option.
+If successful, it extracts the value inside Some().
 
 3.
+When there's an error, it returns corresponding erroneous variant,
+which are Err(e) and None.
+This allows the programmar then handle the error or absence of a value.

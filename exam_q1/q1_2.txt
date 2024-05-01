@@ -1,5 +1,12 @@
 1.
+The type of answer is `&str`.
 
 2.
+Because the block of code is an expression.
+In Rust, programmar can assign an expression to a variable and evaluate it to a value thus it can be assigned to a variable.
 
 3.
+Blocks enclosed by `{}`.
+Inside expressions, programmars can return a value, and this value will then represent the block of code and be assigned to a variable.
+The syntax can be as simple as the value or return the value ended with a `;`.
+
