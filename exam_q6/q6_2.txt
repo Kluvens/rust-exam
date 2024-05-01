@@ -1,4 +1,6 @@
 1.
+let curr_tail = unsafe { &mut *self.tail };
+In this line of code, with unsafe block, we can dereference raw pointer of self.tail.
 
 2.
 
