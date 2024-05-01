@@ -1,8 +1,7 @@
 1.
-The code block in the middle takes the ownership of variable `x`.
-In Rust, once the variable's ownership is taken, and when it goes out of scope, Rust automatically call `drop()`
-and the variable is then destroyed.
-Therefore, when trying to print variable x, the variable is not valid.
+reference of `y` is assigned to x.
+And after this block, y goes out of scope and dropped.
+Therefore, when trying to access it, it shows an error and cannot compile.
 
 2.
 In my opinion, this is a disadvantage.
