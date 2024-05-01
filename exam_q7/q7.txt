@@ -1,0 +1,47 @@
+This is generally true.
+For the first statement, Rust is a modern language designed for its strong type-checking system to ensure memory is safe.
+It is widely used in system development or other low-level development.
+It is productive as it generally produces safe code so developers can save a lot of time debugging and maintaining existing codebase.
+However, Rust is still growing, and compared to other low-level languages such as C or C++, it is still a relatively young language without a mature ecosystem and it may not be a proper language to design certain systems.
+
+This is true.
+Due to ownership and borrowing, Rust ensures memory safety.
+Rust can manage memory efficiently and safely.
+Also, Rust is fast and it is almost as performant as traditional low-level languages like C and C++.
+
+This is generally true.
+Rust is performant and the Rust program runs fast. Rust is designed as a low level language to run fast.
+However, existing low level languages such as C++ may have optimization for CPU or GPU.
+
+This is generally true.
+Rust does not have a built in garbage collector, and it is memory safe with a type checker checking potential bugs at compile time.
+However, unsafe Rust may bypass certain rules so developers still need to be careful writing Rust code.
+
+This is generally true.
+Ownership and borrowing is a relatively new concept compared to other languages.
+Therefore, after learning other languages, Rust is a good choice to broaden the understanding of languages.
+Moreover, Rust has a lot of concepts and new design patterns, it is worth learning but challenging.
+
+This is generally true.
+Rust is not good for beginners as it inherits a lot of concepts from C or C++.
+And it can be challenging to understand certain concepts such as closures and multithreading.
+It is good to learn other languages and learn the concepts before touching Rust.
+However, smart people may continue learning Rust as their first language along with learning other languages.
+Such as learning memory management in C, c++, and Rust together.
+
+This is generally true.
+Rust is a relatively new language, it does not have an ecosystem as mature as C and C++.
+If a company wants to bulid a service in Rust, they may need to build them from scratch, which can be less efficient and error-prone.
+Also, people who mastered Rust may not be as excellent as those who learned C or C++. It is hard for a startup company to hire talented people to work together and publish products.
+However, Rust is a modern language and its unique ownership and borrowing brings a lot of benefits.
+It greatly reduces the debugging and maintaining time.
+Rust may take off in the future, and a it is worth for a startup copmany to publish a new service in a new language.
+
+This is generally true.
+Rust can be benefital as a development language when it comes it multithreading or other challenging concepts.
+Most organisations use Rust as their development language because these features and concepts that may be challenging.
+Therefore, if a person does not persist in learning Rust, he may not understand the beauty of Rust or gain some insights from it.
+
+This is generally true.
+Even though Rust has abstracted the memory operations for developers, it is still worth learning the theory behind the scene.
+In order to build a safe and performant program in Rust, developers still need to learn how memory management works in order to make some changes accordingly.
